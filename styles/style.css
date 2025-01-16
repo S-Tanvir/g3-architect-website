@@ -174,7 +174,45 @@ main>section{
 
 
 
-/* responsive media query */
+
+
+   /*Features you will love & enjoy  */
+    .fact-container{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        justify-content: space-around;
+        margin-top: 100px;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .fact-description{
+        max-width: 540px;
+    }
+  .fact{
+    width: 242px;
+    height: 242px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding:55px 37px 0px  36px ;
+   
+  }
+
+  .fact-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 10px;
+  }
+
+  .fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+
 /* responsive media query */
 
 
@@ -196,6 +234,10 @@ main>section{
         
     }
 
+    .fact-container{
+        grid-template-columns: repeat(1,auto);
+    }
+
 }
 
 
@@ -211,6 +253,10 @@ main>section{
         grid-template-columns: repeat(2,auto);
         justify-content: center;
        
+    }
+
+    .fact-container{
+        grid-template-columns: repeat(2,auto);
     }
 
     
