@@ -135,8 +135,8 @@ main>section{
 }
 
 
-/* teams and features */
-/* teams and features */
+/* teams section */
+/* teams section */
 
 
 .teams{
@@ -172,10 +172,69 @@ main>section{
 
 
 
-.feature-description{
+.teams-description{
     font-size: 1rem;
 }
 
+
+      /* feature section */
+       /* feature section */
+
+       .feature{
+        max-width: 1440px;
+        margin: 100px auto;
+        gap: 54px;
+        
+       }
+
+       .title{
+        font-size: 1.25rem;
+        font-weight: 600px;
+        margin-top: 0px;
+       
+       }
+
+       .feature-sub-title{
+        max-width:586px;
+       
+       }
+
+       .feature-description{
+        font-size: 1rem;
+        margin-bottom: 0px;
+       }
+
+       .feature-cards{
+        max-width: 586px;
+        height: auto;
+        padding: 30px;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+       }
+
+       .image-ar{
+        width: 100%;
+        height: auto;
+      
+       
+       }
+
+       
+
+        /* #experience-badge{
+        padding: 45px 42px;
+        font-size: 1.235rem;
+        margin-left: -100px;
+        margin-top: -100px;
+       
+       }
+
+       #experience-year{
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 0px;
+       }  */
 
 
 
@@ -304,6 +363,22 @@ main>section{
         width: 100%;
     }
 
+    .feature{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    }
+
+    /* #experience-badge{
+        padding: 45px 42px;
+        font-size: 1.235rem;
+        margin-left: -100px;
+        margin-top: -100px; 
+       
+       } */
+
+    
+
 }
 
 
@@ -329,6 +404,14 @@ main>section{
         justify-content: center;
         width: 100%;
     }
+
+    .feature{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;  
+    }
+
+   
 
     
 }
